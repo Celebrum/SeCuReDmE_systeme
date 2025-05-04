@@ -1,7 +1,7 @@
 import json
 import os
 
-from src.planner import CerebrumPlanner
+from src.planner import SeCuReDmE_systemPlanner
 from src.decision_maker import ConsciousDecisionMaker
 from src.strategist import StrategicPlanner
 from src.integrator import InformationIntegrator
@@ -17,7 +17,7 @@ from src.contextualizer import Contextualizer
 
 class Architect:
     def __init__(self):
-        self.planner = CerebrumPlanner()
+        self.planner = SeCuReDmE_systemPlanner()
         self.decision_maker = ConsciousDecisionMaker()
         self.strategist = StrategicPlanner()
         self.integrator = InformationIntegrator()
