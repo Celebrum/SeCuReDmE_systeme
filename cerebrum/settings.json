@@ -1,0 +1,31 @@
+{
+  "message_system": {
+    "type": "RabbitMQ",
+    "host": "localhost",
+    "port": 5672,
+    "username": "guest",
+    "password": "guest"
+  },
+  "database": {
+    "type": "PostgreSQL",
+    "host": "localhost",
+    "port": 5432,
+    "username": "architect",
+    "password": "securepassword",
+    "database_name": "cerebrum_db"
+  },
+  "memory": {
+    "working_memory": {
+      "type": "Redis",
+      "host": "localhost",
+      "port": 6379
+    },
+    "long_term_memory": {
+      "type": "MindsDB",
+      "host": "localhost",
+      "port": 47334,
+      "username": "architect",
+      "password": "securepassword"
+    }
+  }
+}
