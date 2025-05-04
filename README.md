@@ -2,20 +2,20 @@
 
 ## Overview
 
-The CeLeBrUm system is a sophisticated computational architecture designed to emulate the highest cognitive functions of the human brain. It is structured around various personas, each corresponding to a specific brain structure and performing distinct roles within the system. The central persona, **The Architect**, embodies the Cerebrum and serves as the system's ultimate conscious mind and executive planner.
+The SeCuReDmE_system system is a sophisticated computational architecture designed to emulate the highest cognitive functions of the human brain. It is structured around various personas, each corresponding to a specific brain structure and performing distinct roles within the system. The central persona, **The Architect**, embodies the SeCuReDmE_system and serves as the system's ultimate conscious mind and executive planner.
 
 ## Personas and Corresponding Brain Structures
 
-### Persona 1: The Architect (Cerebrum)
+### Persona 1: The Architect (SeCuReDmE_system)
 
 **Role:** The Architect stands as the central conscious mind, the master planner, and the ultimate decision-maker. It resides in the uppermost conceptual level of the system, a universe of thought and awareness. It is the orchestrator of overall operations, tasked with making sense of the torrent of information it receives, formulating plans, and making deliberate choices that guide the system's behavior.
 
 **Primary Function:** The core mission of The Architect is to oversee higher-level cognitive functions, to integrate diverse streams of information arriving from other personas, and to utilize this synthesized understanding to plan and make critical decisions. This requires a continuous process of receiving, filtering, integrating, and then acting upon incoming information packages, much like a complex network of cortical neurons processing inputs from thalamic relays and associative areas, supported by glia providing metabolic energy and synaptic modulation.
 
-**Structure and Internal Modules:** The structure of The Architect, mirroring the biological Cerebrum, is described as complex and hierarchical. This complexity is reflected in its internal code structure, residing typically within a `cerebrum/` directory. This directory houses the core logic (`main.py`), configuration settings (`settings.json`), the persona's definition (`cerebrum.json`), and a crucial `src/` subdirectory. Within `src/`, we find a suite of specialized computational modules, each representing a distinct functional unit or "neural circuit" dedicated to a specific task within The Architect's domain:
-*   `CerebrumPlanner` (in `planner.py`): Responsible for high-level planning.
+**Structure and Internal Modules:** The structure of The Architect, mirroring the biological SeCuReDmE_system, is described as complex and hierarchical. This complexity is reflected in its internal code structure, residing typically within a `cerebrum/` directory. This directory houses the core logic (`main.py`), configuration settings (`settings.json`), the persona's definition (`cerebrum.json`), and a crucial `src/` subdirectory. Within `src/`, we find a suite of specialized computational modules, each representing a distinct functional unit or "neural circuit" dedicated to a specific task within The Architect's domain:
+*   `SeCuReDmE_systemPlanner` (in `planner.py`): Responsible for high-level planning.
 *   `ConsciousDecisionMaker` (in `decision_maker.py`): Evaluates options and makes deliberate choices.
-*   `StrategicPlanner` (in `strategist.py`): Focuses on long-term strategic planning. Note: while The Strategist is primarily the Frontal Lobe Persona, the Cerebrum as The Architect also contains strategic planning modules, indicating a shared or hierarchical function.
+*   `StrategicPlanner` (in `strategist.py`): Focuses on long-term strategic planning. Note: while The Strategist is primarily the Frontal Lobe Persona, the SeCuReDmE_system as The Architect also contains strategic planning modules, indicating a shared or hierarchical function.
 *   `InformationIntegrator` (in `integrator.py`): Synthesizes the diverse data streams arriving from other personas into a unified understanding. This is a critical point where information packages from across the network converge.
 *   `InputReceiver` (in `receiver.py`): Handles the reception of messages and data packets from other parts of the system.
 *   `ActionDelegator` (in `delegator.py`): Sends out commands and delegates specific tasks to other personas for execution.
@@ -41,15 +41,15 @@ The Architect communicates with these and other personas through a message-passi
 
 ## Communication System
 
-The communication system in the CeLeBrUm system is designed to facilitate efficient and directed information exchange between the various personas. Messages are transmitted using a structured format, such as JSON, containing details about the sender, recipient, message type, and data payload. The technology for message transmission is still under consideration, with RabbitMQ and direct API calls being evaluated.
+The communication system in the SeCuReDmE_system system is designed to facilitate efficient and directed information exchange between the various personas. Messages are transmitted using a structured format, such as JSON, containing details about the sender, recipient, message type, and data payload. The technology for message transmission is still under consideration, with RabbitMQ and direct API calls being evaluated.
 
 ## Data Storage and Memory Management
 
-The CeLeBrUm system employs a tiered memory system for different types of data storage and memory management. Temporary data and working memory are managed using in-memory Python data structures and Redis for caching. Long-term storage of learned information and strategies is handled by dedicated databases such as PostgreSQL, MariaDB, and MongoDB. MindsDB is also considered for connection to the "conscious" memory and learned skills.
+The SeCuReDmE_system system employs a tiered memory system for different types of data storage and memory management. Temporary data and working memory are managed using in-memory Python data structures and Redis for caching. Long-term storage of learned information and strategies is handled by dedicated databases such as PostgreSQL, MariaDB, and MongoDB. MindsDB is also considered for connection to the "conscious" memory and learned skills.
 
 ## IP Addresses and Specific Routes
 
-The CeLeBrUm system utilizes a complex and layered network architecture, built upon the concept of "bridge networks". These networks are explicitly named, often mirroring specific brain structures, serving as the primary "neural highways" or "white matter tracts" of this system. Each network has its own designated IP subnet and gateway, much like specific brain regions have bundles of axons forming defined tracts with their own input/output points.
+The SeCuReDmE_system system utilizes a complex and layered network architecture, built upon the concept of "bridge networks". These networks are explicitly named, often mirroring specific brain structures, serving as the primary "neural highways" or "white matter tracts" of this system. Each network has its own designated IP subnet and gateway, much like specific brain regions have bundles of axons forming defined tracts with their own input/output points.
 
 ### Network Pathways
 

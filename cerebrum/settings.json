@@ -12,7 +12,7 @@
     "port": 5432,
     "username": "architect",
     "password": "securepassword",
-    "database_name": "cerebrum_db"
+    "database_name": "secure_dme_system_db"
   },
   "memory": {
     "working_memory": {
