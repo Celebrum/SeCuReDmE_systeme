@@ -1,2 +1,1 @@
-# cerebrum-1
-A repository for the CeLeBrUm system architecture
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
