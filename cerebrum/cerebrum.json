@@ -70,6 +70,21 @@
         "name": "Contextualizer",
         "file": "contextualizer.py",
         "description": "Adds context to received information, making it more meaningful."
+      },
+      {
+        "name": "CorpusCallosum",
+        "file": "level2/CorpusCallosum.json",
+        "description": "Represents the Corpus Callosum brain part, facilitating communication and coordination between the left and right hemispheres."
+      },
+      {
+        "name": "RightHemisphere",
+        "file": "level2/right_hemisphere.json",
+        "description": "Represents the Right Hemisphere brain part, associated with holistic processing, spatial reasoning, creativity, and the processing of non-verbal cues."
+      },
+      {
+        "name": "LeftHemisphere",
+        "file": "level2/left_hemisphere.json",
+        "description": "Represents the Left Hemisphere brain part, associated with logical reasoning, analytical thinking, language processing, and detailed-oriented tasks."
       }
     ]
   },

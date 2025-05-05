@@ -26,6 +26,9 @@ The SeCuReDmE_system system is a sophisticated computational architecture design
 *   `ReasoningEngine` (in `reasoning.py`): Performs logical reasoning and deduction.
 *   `ProblemSolver` (in `problem_solving.py`): Tackles complex problems by breaking them down.
 *   `Contextualizer` (in `contextualizer.py`): Adds context to received information, making it more meaningful.
+*   `CorpusCallosum` (in `level2/CorpusCallosum.json`): Represents the Corpus Callosum brain part, facilitating communication and coordination between the left and right hemispheres.
+*   `RightHemisphere` (in `level2/right_hemisphere.json`): Represents the Right Hemisphere brain part, associated with holistic processing, spatial reasoning, creativity, and the processing of non-verbal cues.
+*   `LeftHemisphere` (in `level2/left_hemisphere.json`): Represents the Left Hemisphere brain part, associated with logical reasoning, analytical thinking, language processing, and detailed-oriented tasks.
 
 Each of these modules, much like specialized neuronal assemblies, contributes a distinct piece to the overall cognitive function of The Architect, working in concert through internal messaging and data exchange, all supported by the underlying digital "glia" ensuring resource availability and computational stability.
 

@@ -26,6 +26,10 @@ from src.cerebellum import ProcessCoordination, ErrorDetectionCorrection, SkillL
 
 from src.brainstem import CoreOperationManagement, SignalRelayControl, BasicResourceAllocation, SystemActivationControl, InternalReflexHandling, AutonomicProcessManagement
 
+from level2.CorpusCallosum import CorpusCallosum
+from level2.left_hemisphere import LeftHemisphere
+from level2.right_hemisphere import RightHemisphere
+
 class Architect:
     def __init__(self):
         self.planner = SeCuReDmE_systemPlanner()
@@ -62,6 +66,10 @@ class Architect:
         self.system_activation_control = SystemActivationControl()
         self.internal_reflex_handling = InternalReflexHandling()
         self.autonomic_process_management = AutonomicProcessManagement()
+
+        self.corpus_callosum = CorpusCallosum()
+        self.left_hemisphere = LeftHemisphere()
+        self.right_hemisphere = RightHemisphere()
 
         self.load_settings()
 
