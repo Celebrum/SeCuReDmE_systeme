@@ -24,6 +24,8 @@ from src.visionary.intuitive_reasoning import IntuitiveReasoning
 
 from src.cerebellum import ProcessCoordination, ErrorDetectionCorrection, SkillLearningAdaptation, TimingSynchronization, StabilityManagement, ParameterCalibration
 
+from src.brainstem import CoreOperationManagement, SignalRelayControl, BasicResourceAllocation, SystemActivationControl, InternalReflexHandling, AutonomicProcessManagement
+
 class Architect:
     def __init__(self):
         self.planner = SeCuReDmE_systemPlanner()
@@ -53,6 +55,13 @@ class Architect:
         self.timing_synchronization = TimingSynchronization()
         self.stability_management = StabilityManagement()
         self.parameter_calibration = ParameterCalibration()
+
+        self.core_operation_management = CoreOperationManagement()
+        self.signal_relay_control = SignalRelayControl()
+        self.basic_resource_allocation = BasicResourceAllocation()
+        self.system_activation_control = SystemActivationControl()
+        self.internal_reflex_handling = InternalReflexHandling()
+        self.autonomic_process_management = AutonomicProcessManagement()
 
         self.load_settings()
 
@@ -91,6 +100,12 @@ class Architect:
         decision = self.decision_maker.evaluate(context_data)
         self.error_detection_correction.identify_and_rectify_errors(context_data)
         self.timing_synchronization.manage_timing(context_data)
+        self.core_operation_management.manage_core_operations()
+        self.signal_relay_control.manage_signal_relay()
+        self.basic_resource_allocation.manage_resource_allocation()
+        self.system_activation_control.manage_system_activation()
+        self.internal_reflex_handling.manage_internal_reflexes()
+        self.autonomic_process_management.manage_autonomic_processes()
         return decision
 
     def execute_plan(self, plan):
