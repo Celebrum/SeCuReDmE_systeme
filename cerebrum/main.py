@@ -22,6 +22,8 @@ from src.visionary.creative_generation import CreativeGeneration
 from src.visionary.non_verbal_signal_processing import NonVerbalSignalProcessing
 from src.visionary.intuitive_reasoning import IntuitiveReasoning
 
+from src.cerebellum import ProcessCoordination, ErrorDetectionCorrection, SkillLearningAdaptation, TimingSynchronization, StabilityManagement, ParameterCalibration
+
 class Architect:
     def __init__(self):
         self.planner = SeCuReDmE_systemPlanner()
@@ -44,6 +46,13 @@ class Architect:
         self.creative_generation = CreativeGeneration()
         self.non_verbal_signal_processing = NonVerbalSignalProcessing()
         self.intuitive_reasoning = IntuitiveReasoning()
+
+        self.process_coordination = ProcessCoordination()
+        self.error_detection_correction = ErrorDetectionCorrection()
+        self.skill_learning_adaptation = SkillLearningAdaptation()
+        self.timing_synchronization = TimingSynchronization()
+        self.stability_management = StabilityManagement()
+        self.parameter_calibration = ParameterCalibration()
 
         self.load_settings()
 
@@ -72,15 +81,22 @@ class Architect:
             "intuitive": intuitive_context
         }
 
+        self.process_coordination.ensure_smooth_interaction(combined_context)
+        self.skill_learning_adaptation.improve_efficiency(combined_context)
+
         return combined_context
 
     def make_decision(self, data):
         context_data = self.process_incoming_data(data)
         decision = self.decision_maker.evaluate(context_data)
+        self.error_detection_correction.identify_and_rectify_errors(context_data)
+        self.timing_synchronization.manage_timing(context_data)
         return decision
 
     def execute_plan(self, plan):
         self.delegator.delegate(plan)
+        self.stability_management.ensure_robustness(plan)
+        self.parameter_calibration.fine_tune_settings(plan)
 
     def run(self):
         while True:
