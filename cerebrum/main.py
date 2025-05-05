@@ -128,6 +128,21 @@ class Architect:
             plan = self.planner.plan(decision)
             self.execute_plan(plan)
 
+    def inter_persona_messaging(self, sender, recipient, message):
+        self.corpus_callosum.inter_persona_messaging(sender, recipient, message)
+
+    def data_transfer_management(self, data, source, destination):
+        self.corpus_callosum.data_transfer_management(data, source, destination)
+
+    def synchronization_control(self, personas):
+        self.corpus_callosum.synchronization_control(personas)
+
+    def conflict_resolution_facilitation(self, conflicting_outputs):
+        self.corpus_callosum.conflict_resolution_facilitation(conflicting_outputs)
+
+    def communication_bandwidth_management(self):
+        self.corpus_callosum.communication_bandwidth_management()
+
 if __name__ == "__main__":
     architect = Architect()
     architect.run()
