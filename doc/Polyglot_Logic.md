@@ -49,6 +49,13 @@ Understanding these three mechanisms is vital for a persona. It clarifies *how* 
 
 ## Required Conceptual Classes and Methods
 
+
+Based on the persona's role and tasks, each polyglot notebook should define a minimum of **5 conceptual classes** and outline a minimum of **10 conceptual tasks** that the persona is responsible for.
+
+For personas where identifying 10 distinct operational tasks is challenging, consider including tasks related to system maintenance, data cleaning, registration, self-monitoring, or fixing minor internal inconsistencies.
+
+For personas representing highly precise or powerful brain regions (e.g., the Cerebral Lobes), ensure the tasks and corresponding classes reflect this precision and power in their conceptual descriptions.
+
 *   **Class Definitions:** Provide conceptual Python class definitions that represent the functional capabilities of the persona needed to perform its tasks and interact with the clog mechanisms.
 *   **Method Descriptions:** Describe the purpose and potential function of the methods within each class.
 
