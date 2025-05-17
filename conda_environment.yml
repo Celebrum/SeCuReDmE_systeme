@@ -1,0 +1,19 @@
+name: secure_dme_system
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - tensorflow
+  - jupyter
+  - matplotlib
+  - seaborn
+  - sqlalchemy
+  - psycopg2
+  - redis
+  - mindsdb
+  - rabbitmq-server
